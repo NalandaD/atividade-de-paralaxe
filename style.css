@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.6;
+        background-color: lightpink;
+    }
+    .header{
+        background-color: cornflowerblue;
+        color: rgb(232, 157, 241);
+        text-align: center;
+        padding: 50px 0;
+    }
+    .header h1{
+        font-size: 3rem;
+        margin: 10px;
+    }
+    header p::selection{
+        background-color: pink;
+        color: plum;
+    }
+    .header p{
+        font-size: 1.2rem;
+        font-family:Arial, Helvetica, sans-serif
+    }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+       height: 100vh;
+    }
+    .box{
+        background-color: rgb(191, 237, 245);
+        padding: 20px;
+        margin: 10px;
+        width: 60%;
+        text-align: justify;
+    }
+    .footer{
+        background-color: cornflowerblue;
+        color: #f7dfdf;
+        text-align: center;
+        padding: 20px 0;
+        margin-top: 20px ;
+    }
+    .parallax1{
+    background-image: url(https://lh7-us.googleusercontent.com/bOZpTRNwicFDN9YgJlTZT4YJpxSiEsuMQkJ57BK84AfAo8zqvqUz-YYH7B6uLvHl-VMy2FWnrvrW7S4b49ffQ8SuNERSRVvwJzlGLzTamZ9UIstC6Bxwpx3ER9usTBNZ7TTtRmjGhqTn-6TDmfHjFgU);
+    }
+    .parallax2{
+        background-image: url(https://portalpopline.com.br/wp-content/uploads/2021/09/dua-lipa-2.jpg);
+    }
+    .parallax3{
+        background-image: url(https://culturadoria.com.br/wp-content/uploads/2020/04/Dua-Lipa-Cr%C3%A9dito-Warner-Music.jpg);
+    
+    }
+    .parallax4{
+        background-image: url(https://uploads.tracklist.com.br/wp-content/uploads/2019/12/dua_lipa_thevoice.png);
+    }
+    .parallax5{
+        background-image: url(https://uploads.metroimg.com/wp-content/uploads/2024/04/29152425/dua-lipa-moda-radical-optimism-estilo-3.jpg);
+    }
+    .parallax{
+        height: 100vh;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    @media(max-width:480px){
+      .box{
+        padding: 30px;
+        margin: 0px;
+        width: 100%;
+      }
+      .conteiner5{height: 500px;
+      }
+        }
+    }
+    
+    
+
+
+
